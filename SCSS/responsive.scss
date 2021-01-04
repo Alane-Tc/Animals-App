@@ -1,0 +1,67 @@
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+
+@media (max-width: 575.98px) { 
+    /*body{background: red;}*/
+
+    #title-Main{
+        @include fontSize(25px);
+    }
+
+    .load{
+        @include fontSize(15px);
+    }
+
+    #div-Main {
+        width: 90%;
+
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*body{background: green;}*/
+
+    #title-Main{
+        @include fontSize(32px);
+    }
+
+    .load{
+        @include fontSize(20px);
+    }
+
+    #div-Main {
+        width: 90%;
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*body{background: yellow;}*/
+
+    #div-Main {
+        width: 90%;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*body{background: blue;}*/
+    #div-Main {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) { 
+    /*body{background: blueviolet;}*/
+
+}

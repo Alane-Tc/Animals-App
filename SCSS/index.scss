@@ -1,0 +1,70 @@
+$fondoPagina: #e9ecef;
+$fondoDiv: #a9d6e5;
+
+@mixin marginTop ($size) {
+    margin-top: $size;
+}
+
+@mixin marginBottom ($size) {
+    margin-bottom: $size;
+}
+
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+
+body{
+    background: $fondoPagina;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Index*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    box-shadow: 5px 5px 5px black;
+}
+
+.btn{
+    @include marginTop(20px);
+}
+
+/*Titulo principal
+#title-Main{
+    @include marginTop(-20px);
+    @include fontSize(50px);
+}*/
+
+/*Div principal
+#div-Main {
+    width: 1100px;
+    height: auto;
+    margin: 0px auto;
+    @include marginTop(15px);
+
+    .grid-item{
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #btn-Random{
+        @include marginTop(20px);
+    }
+
+    img{
+        box-shadow: 5px 5px 5px black;
+    }
+}*/
