@@ -4,7 +4,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/Alane-Tc/Animals-App?style=for-the-badge)
 ------------
 ## 📝Descripción
-Aplicación realizada con la API de BreakingBad, donde muestra a todos los personajes de la serie breaking bad con su respectiva información [Click Aqui](https://animalsapp.netlify.app/ "Click Aqui")
+Aplicación realizada con la 3 API´S (Dog.ceo, random.cat y randomFox), donde muestra imágenes random de perros, gatos y zorros [Click Aqui](https://animalsapp.netlify.app/ "Click Aqui")
 
 ![](https://github.com/Alane-Tc/Animals-App/blob/master/img/ss/dogAppi.jpeg?raw=true)
 
