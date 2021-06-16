@@ -7,7 +7,13 @@
 Aplicación realizada con la API de BreakingBad, donde muestra a todos los personajes de la serie breaking bad con su respectiva información [Click Aqui](https://animalsapp.netlify.app/ "Click Aqui")
 
 ![](https://github.com/Alane-Tc/Animals-App/blob/master/img/ss/dogAppi.jpeg?raw=true)
+
+------------
+
 ![](https://github.com/Alane-Tc/Animals-App/blob/master/img/ss/cadAppi.jpeg?raw=true)
+
+------------
+
 ![](https://github.com/Alane-Tc/Animals-App/blob/master/img/ss/foxAppi.jpeg?raw=true)
 
 ------------
